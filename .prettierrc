@@ -1,3 +1,7 @@
 {
-  "singleQuote": true
+  "plugins": ["prettier-plugin-tailwindcss"],
+  "tailwindAttributes": ["contentContainerClassName"],
+  "tailwindFunctions": ["clsx"],
+  "singleQuote": true,
+  "singleAttributePerLine": true
 }
